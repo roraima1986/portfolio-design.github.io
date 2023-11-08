@@ -331,7 +331,7 @@ body {
     font-weight: 600;
 }
 
-/* Estilos compartidos ABOUT */
+/* Estilos Generales compartidos ABOUT, ESTUDIOS */
 .about__services,
 .about__reviews,
 .about__clients,
@@ -345,7 +345,8 @@ body {
 .reviews__header,
 .clients__header,
 .prices__header,
-.extra__header {
+.extra__header,
+.resume__subheader {
     text-align: center;
     display: inline-block;
     padding-right: 1.2rem;
@@ -357,7 +358,8 @@ body {
 .reviews__title,
 .clients__title,
 .prices__title,
-.extra__title {
+.extra__title,
+.resume__subtitle {
     font-size: 2.1rem;
 }
 
@@ -365,7 +367,8 @@ body {
 .reviews__title::after,
 .clients__title::after,
 .prices__title::after,
-.extra__title::after {
+.extra__title::after,
+.resume__subtitle::after {
     content: '';
     content: '';
     position: absolute;
@@ -641,4 +644,65 @@ body {
     margin: 1.5rem 1rem;
     margin-bottom: 0;
     color: var(--color-subtitle);
+}
+
+/* ESTUDIOS */
+.resume__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.resume__left {
+    flex-basis: 58%;
+    margin-right: 1.5rem;
+}
+
+.resume__timelines {
+    margin-bottom: 5rem;
+}
+
+.timelines__timeline {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+.timeline__header {
+    flex-basis: 30%;
+    text-align: right;
+    padding-right: 2.5rem;
+}
+
+.timeline__year {
+    margin: 3px 0;
+    line-height: 1.9rem;
+    font-size: 1.4rem;
+}
+
+.timeline__company {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    color: var(--color-company)   
+}
+
+.timeline__description {
+    width: 70%;
+    padding-left: 2.5rem;
+    padding-right: 1.5rem;
+}
+
+.timeline__text {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.timel
+
+
+.resume__right {
+    flex-basis: 41%;
 }
