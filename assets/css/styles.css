@@ -787,3 +787,18 @@ body {
 .skills__percentage--p85 {width: 85%;}
 .skills__percentage--p92 {width: 92%;}
 .skills__percentage--p91 {width: 81%;}
+
+.knowledges__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.knowledges__option {
+    padding: 0.5rem 1rem;
+    margin: 0.3rem 0.3rem;
+    font-size: 1.4rem;
+    background-color: var(--color-secondary);
+    border-radius: 0.3rem;
+    color: var(--color-principal);
+}
